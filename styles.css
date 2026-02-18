@@ -44,6 +44,12 @@ img { max-width: 100%; height: auto; display: block; }
 section {
   padding: clamp(4rem, 10vw, 7rem) 0;
 }
+/* Inner pages: first section needs extra top padding for fixed header */
+.services-page,
+.packages-page,
+.contact-page {
+  padding-top: calc(5rem + clamp(4rem, 10vw, 7rem));
+}
 
 /* --- Header --- */
 .site-header {

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Elan Atelier | Balloon & Event Styling in Winnipeg</title>
+  <meta name="description" content="Contact Elan Atelier for custom balloon and event styling in Winnipeg. Get a quote for your celebration." />
+  <meta name="keywords" content="contact Elan Atelier, balloon décor Winnipeg, event styling quote, Winnipeg celebrations" />
+  <meta name="author" content="Elan Atelier" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#b8956b" />
+  <link rel="canonical" href="https://elanatelier.github.io/contact.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Elan Atelier" />
+  <meta property="og:title" content="Contact Elan Atelier | Balloon & Event Styling in Winnipeg" />
+  <meta property="og:description" content="Contact Elan Atelier for custom balloon and event styling in Winnipeg. Get a quote for your celebration." />
+  <meta property="og:url" content="https://elanatelier.github.io/contact.html" />
+  <meta property="og:image" content="https://elanatelier.github.io/assets/og-image.png" />
+  <meta property="og:locale" content="en_CA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact Elan Atelier | Balloon & Event Styling in Winnipeg" />
+  <meta name="twitter:description" content="Contact Elan Atelier for custom balloon and event styling in Winnipeg. Get a quote for your celebration." />
+  <meta name="twitter:image" content="https://elanatelier.github.io/assets/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Élan Atelier home">
+      <span class="logo-monogram"><span class="logo-a">A</span><span class="logo-e">E</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#about">About</a>
+      <a href="services.html">Services</a>
+      <a href="packages.html">Packages</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="contact contact-page" id="contact">
+      <div class="container">
+        <span class="section-label">Contact</span>
+        <h1 class="section-title">Get in touch</h1>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <p class="contact-text">Tell us about your event and we'll get back to you within 24–48 hours with availability and a quote.</p>
+            <div class="contact-details">
+              <p><strong>For general questions:</strong></p>
+              <p>Email: <a href="mailto:elanatelier.ea@gmail.com">elanatelier.ea@gmail.com</a></p>
+              <p>Phone consultations available upon request.</p>
+            </div>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/mgolzley" method="post" id="contact-form">
+            <div class="form-row">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" />
+            </div>
+            <div class="form-row">
+              <label for="event-type">Event type <span class="required">*</span></label>
+              <select id="event-type" name="event_type" required>
+                <option value="">Select…</option>
+                <option value="birthday">Birthday</option>
+                <option value="baby-shower">Baby shower</option>
+                <option value="gender-reveal">Gender reveal</option>
+                <option value="welcome">Welcome</option>
+                <option value="cultural-festival">Cultural festival</option>
+                <option value="new-year">New year</option>
+                <option value="graduation">Graduation</option>
+                <option value="prom-homecoming">Prom / Homecoming</option>
+                <option value="school-celebrations">School celebrations</option>
+                <option value="community-festivals">Community festivals</option>
+                <option value="wedding-anniversary">Wedding anniversary</option>
+                <option value="gettogether">Gettogether</option>
+                <option value="award-ceremony">Award ceremony</option>
+                <option value="corporate-events">Corporate events</option>
+                <option value="product-launch">Product launch</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-row form-row-other" id="event-type-other-wrap" hidden>
+              <label for="event-type-other">Please specify</label>
+              <input type="text" id="event-type-other" name="event_type_other" placeholder="Describe your event type…" />
+              <span class="form-error" id="event-type-other-error" role="alert"></span>
+            </div>
+            <div class="form-row">
+              <label for="event-date">Event date <span class="required">*</span></label>
+              <input type="date" id="event-date" name="event_date" required />
+            </div>
+            <div class="form-row">
+              <label for="message">Message <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="4" required placeholder="Tell us about your event, theme, and what you have in mind…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">Elan Atelier</p>
+      <p class="footer-copy">&copy; <span id="year"></span> Elan Atelier. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    var y = document.getElementById('year');
+    if (y) y.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
